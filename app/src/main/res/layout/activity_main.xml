@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:background="#3137C8"
+        android:text="Ocu ryy Store"
+        android:textAlignment="center"
+        android:textColor="#99CD5C"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Nama pelanggan" />
+
+    <EditText
+        android:id="@+id/ettipe"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:text="Tipe Pelanggan"
+        android:background="@null"/>
+
+    <RadioGroup
+        android:id="@+id/rgrmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbgold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#08080B"
+            android:text="Gold" />
+
+        <RadioButton
+            android:id="@+id/rbsilver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#08080B"
+            android:text="Silver" />
+
+        <RadioButton
+            android:id="@+id/rbbiasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#08080B"
+            android:text="Biasa" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etkode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Kode Barang" />
+
+    <EditText
+        android:id="@+id/etjumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Jumlah Barang" />
+
+    <Button
+        android:id="@+id/btnproses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Proces" />
+
+
+
+
+
+
+
+</LinearLayout>
